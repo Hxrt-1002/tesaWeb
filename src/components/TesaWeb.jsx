@@ -12,7 +12,7 @@ const TesaWeb = (props) => {
                     <p className='card-text'>{props.desc}</p>
                     <h5 className='card-text'>{props.price}</h5>
                 </div>
-                <div className='card-footer d-flex justify-content-between gap-3'>
+                <div className='p-3 d-flex justify-content-between gap-3'>
                     <button className='btn btn-outline-dark w-50'>Add to Cart</button>
                     <button className='btn btn-outline-info w-50'>Add to your favorite</button>
                 </div>
